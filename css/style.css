@@ -1,0 +1,119 @@
+
+ 
+/* Common CSS starrt here */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+a{
+   text-decoration: none;
+}
+/* Common CSS End here */
+
+/* <!-- Header part start here --> */
+.headerpart {
+    padding: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.btn a{
+ padding: 18px 35px;
+  color:#ffff;
+ font-family: "Open Sans", sans-serif;
+ font-weight: 700;
+ font-size: 20px;
+  background: #FD6E0A;
+  border-radius: 5px;
+}
+
+
+.menu ul {
+    display: flex;
+    gap: 71px;
+   list-style: none
+}
+
+.menu ul li a {
+    font-family: "Open Sans", sans-serif;
+      font-weight: 400px;
+       font-size: 20px;
+       color:#474747;
+}
+
+.menubtnflex{
+   display: flex;
+   gap: 51px;
+   
+}
+
+/* <!-- Header part End here --> */
+ 
+
+
+
+ /* bannerPart start Here  */
+.bannerpart {
+  padding-top: 161px;
+  background-image: url("../images/banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bannerContent h3{
+    font-size: 45px;
+    color: #474747;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 400px;
+}
+.bannerContent h1{
+    
+      font-family: "Open Sans", sans-serif;
+      font-weight: 700;
+      font-size: 85px;
+    color: #181818;
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
+
+.bannerContent p{
+      font-family: "Open Sans", sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+    color: #757575;
+    width: 585px;
+}
+
+.bannerflex{
+    display: flex;
+    gap: 161px;
+}
+
+
+/* bannerPart End Here */
+
+
+
+
+
+
+
+
+ /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
