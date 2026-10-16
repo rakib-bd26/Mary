@@ -121,6 +121,7 @@ a {
   background-size: cover;
   position: relative;
   z-index: 0;
+  margin-bottom: 130px;
 }
 
 .bannerContent h3{
@@ -180,11 +181,63 @@ a {
 
 
 
+   /* About part start here  */
+
+  #aboutpart{
+      text-align:center;
+  }
+
+  .about{
+    padding: 131px 157px;
+    background: #FFF8F3;
+  }
+
+  .aboutcontent{
+    text-align: center;
+
+  }
+ .aboutcontent h2{
+    font-family:"open sans", sane-serif;
+    font-weight: 700px;
+    font-size: 20px;
+    color: #181818;
+    margin: 30px;
+
+  }
+   .aboutcontent p{
+    font-family:"open sans",sane-serif;
+    font-weight: 400px;
+    font-size: 18px;
+    color: #757575;
+    width: 798px;
+    margin: 0 auto;
+    line-height: 30px;
+  }
+  .aboutBio{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+     gap: 50px;
+  }
+     .aboutBio p{
+    font-family:"open sans",sane-serif;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+    
+    
+  }
+.aboutBio h5 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+    line-height: 30px;
+    text-align: center;
+}
+
+/* About part end here  */
 
 
-
-
-
- /* background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; */
